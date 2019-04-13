@@ -15,8 +15,8 @@ else # boot2docker uid and gid
   GROUP_ID=50
 fi
 
-docker build -t "sjtuthesis-${USER_ID}" - <<UserSpecificDocker
-FROM quay.io/sjtug/sjtuthesis:latest
+docker build -t "zstuthesis-${USER_ID}" - <<UserSpecificDocker
+FROM quay.io/zstug/zstuthesis:latest
 RUN groupadd --non-unique -g ${GROUP_ID} ${USER_NAME}
 RUN useradd -g ${GROUP_ID} -u ${USER_ID} -k /root -m ${USER_NAME}
 UserSpecificDocker
@@ -25,6 +25,6 @@ docker run --rm=true \
   -v "${PWD}:/workdir" \
   -w "/workdir" \
   -u "${USER_NAME}" \
-  "sjtuthesis-${USER_ID}"
+  "zstuthesis-${USER_ID}"
 
 cd - > /dev/null

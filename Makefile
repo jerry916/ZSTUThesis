@@ -12,7 +12,7 @@ all: $(THESIS).pdf
 
 .PHONY : all cleanall pvc view wordcount git zip
 
-$(THESIS).pdf : $(THESIS).tex $(TEX_DIR)/*.tex $(BIB_DIR)/*.bib sjtuthesis.cls sjtuthesis.cfg Makefile
+$(THESIS).pdf : $(THESIS).tex $(TEX_DIR)/*.tex $(BIB_DIR)/*.bib zstuthesis.cls zstuthesis.cfg Makefile
 	-latexmk $(LATEXMK_OPT) $(THESIS)
 
 pvc :
@@ -38,7 +38,7 @@ cleanall :
 	-@rm -f $(TEX_DIR)/*.aux 2> /dev/null || true
 
 s3 : $(THESIS).pdf
-	s3cmd put $< s3://sjtuthesis/README.pdf
+	s3cmd put $< s3://zstuthesis/README.pdf
 
 git :
 	git push --tags github; git push github;
