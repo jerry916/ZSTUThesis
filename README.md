@@ -1,29 +1,16 @@
-# 上海交通大学学位论文模板
+# 浙江理工大学学位论文模板
 
-[![Build Status](https://travis-ci.org/sjtug/SJTUThesis.svg?branch=master)](https://travis-ci.org/sjtug/SJTUThesis)
-[![Build status](https://ci.appveyor.com/api/projects/status/9026p23k53dt2607/branch/master?svg=true)](https://ci.appveyor.com/project/SJTUG/sjtuthesis/branch/master)
-[![GitHub Release](https://img.shields.io/github/release/sjtug/SJTUThesis.svg)](https://github.com/sjtug/SJTUThesis/releases)
-[![GitHub Release Date](https://img.shields.io/github/release-date/sjtug/SJTUThesis.svg)](https://github.com/sjtug/SJTUThesis/releases)
-[![Join the chat at https://gitter.im/sjtug/SJTUThesis](https://badges.gitter.im/sjtug/SJTUThesis.svg)](https://gitter.im/sjtug/SJTUThesis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-这是为撰写上海交通大学学士、硕士、博士学位论文或课程论文而准备的 XeLaTeX 模板，非官方出品。生成的学位论文文件参见 [README.pdf][README]，详细使用说明参见 [SJTUThesis Wiki](https://github.com/sjtug/SJTUThesis/wiki)。
+这是为撰写浙江理工大学学士、硕士、博士学位论文或课程论文而准备的 XeLaTeX 模板，基于上海交通大学的学位论文模板修改，非官方出品。生成的学位论文文件参见 [README.pdf][README]，详细使用说明参见 [ZSTUThesis Wiki](https://github.com/jerry916/ZSTUThesis/wiki)。
 
 ## 封面展示
 
 <div align="center">
-    <a href="http://sjtug.org/SJTUThesis/bachelor.pdf"><img src="./docs/images/bachelor.png" height="330"></a>
-    <a href="http://sjtug.org/SJTUThesis/coursepaper.pdf"><img src="./docs/images/coursepaper.png" height="330"></a>
+    <a href="https://github.com/jerry916/ZSTUThesis/blob/master/thesis.pdf"><img src="./docs/images/bachelor.png" height="330"></a>
 </div>
-
-<div align="center">
-    <a href="http://sjtug.org/SJTUThesis/master.pdf"><img src="./docs/images/master.png" height="305"></a>
-    <a href="http://sjtug.org/SJTUThesis/doctor.pdf"><img src="./docs/images/doctor.png" height="305"></a>
-</div>
-
 
 ## 如何使用
 
-SJTUThesis 共有三种编译方式支持:
+ZSTUThesis 共有三种编译方式支持:
 
 * [本地编译](#本地编译)
 * [在 ShareLaTeX 网站上进行在线编译](#sharelatex-在线编译)
@@ -90,7 +77,7 @@ make wordcount
 
 目前会统计两种字数：纯中文字数与总字数（英文单词 + 中文字）。其中纯中文字数只统计中文字，如英语单词，数字等都不予计入。总字数统计英文单词，以及中文字的总和，其中一个单词视为一个字。
 
-## 反馈问题
+## 反馈问题（上海交通大学学位论文模板）
 
 如果在使用上有任何问题，建议先阅读[常见问题与建议](https://github.com/sjtug/SJTUThesis/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E5%BB%BA%E8%AE%AE)。如果这些不能解决你的问题，建议以如下的顺序反馈使用过程中的问题：
 
@@ -99,7 +86,7 @@ make wordcount
 
 如果你觉得项目的使用体验不好，或者想感谢我们的维护者们等等任何与使用无关的想法，都可以通过我们的[在线聊天频道](https://gitter.im/sjtug/SJTUThesis)告诉我们。
 
-## 如何贡献
+## 如何贡献（上海交通大学学位论文模板）
 
 SJTUThesis 是一个由诸多感兴趣的同学一起维护的开源项目，我们非常欢迎新的贡献者! 这里有很多贡献的方式:
 
@@ -109,11 +96,11 @@ SJTUThesis 是一个由诸多感兴趣的同学一起维护的开源项目，我
 * 向周围同学安利 SJTUThesis，让更多的同学使用我们维护的模板
 * 在我们的[在线聊天频道上](https://gitter.im/sjtug/SJTUThesis)告诉我们你的使用体验，以及吐槽。如果你也想成为项目的长期维护者，也可以通过在线频道告诉我们 :-)
 
-## 后续工作计划
+## 后续工作计划（上海交通大学学位论文模板）
 
 * 分离学位论文的使用文档和示例文档，准备提交到 CTAN [#47](https://github.com/sjtug/SJTUThesis/issues/47)
 
-## 致谢
+## 致谢（上海交通大学学位论文模板）
 
 * 感谢 [CTeX](http://www.ctex.org/HomePage) 提供了 LaTeX 的中文支持
 * 感谢那位最先制作出博士学位论文 LaTeX 模板的交大物理系同学
@@ -122,7 +109,7 @@ SJTUThesis 是一个由诸多感兴趣的同学一起维护的开源项目，我
 * 感谢 [@sjtug](https://github.com/sjtug) 以及 [@dyweb](https://github.com/dyweb) 对 0.9.5 之后版本的开发和维护工作
 * 感谢所有为模板贡献过代码的[同学们](https://github.com/sjtug/SJTUThesis/graphs/contributors)，以及所有测试和使用模板的各位同学
 
-## 软件许可证
+## 软件许可证（上海交通大学学位论文模板）
 
 上海交通大学校徽图片(`sjtulogo.pdf` 等)的版权归上海交通大学所有。其他部分使用 [Apache License 2.0](LICENSE) 授权。
 
