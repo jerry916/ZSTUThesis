@@ -1,16 +1,12 @@
-# What is SJTUThesis?
-
-[![Build Status](https://travis-ci.org/sjtug/SJTUThesis.svg?branch=master)](https://travis-ci.org/sjtug/SJTUThesis)
-[![](https://img.shields.io/github/release/sjtug/SJTUThesis.svg)](https://github.com/sjtug/SJTUThesis/releases)
-[![GitHub Release Date](https://img.shields.io/github/release-date/sjtug/SJTUThesis.svg)]()
+# What is ZSTUThesis?
 
 SJTUThesis is an *unofficial* XeLaTeX template for preparing bachelor, master, or doctor thesis in Shanghai Jiao Tong University.
 
-The generated thesis example PDF file can be found at `README.pdf` (this file has been removed, see sjtug/SJTUThesis/#26 contributing PDF into repo will increase the repo size) . The user guide will be found at  [SJTUThesis Wiki](https://github.com/sjtug/SJTUThesis/wiki)，welcome for contribution。
+The generated thesis example PDF file can be found at `README.pdf` (this file has been removed, see sjtug/SJTUThesis/#26 contributing PDF into repo will increase the repo size) . The user guide will be found at  [SJTUThesis Wiki](https://github.com/jerry916/ZSTUThesis/wiki)，welcome for contribution。
 
 ## User Guide
 
-`SJTUThesis` can be compile at your local machine, or on the Cloud service.
+`ZSTUThesis` can be compile at your local machine, or on the Cloud service.
 
 ### System Requirement of Locally Compile
 
@@ -113,8 +109,5 @@ banner (`sjtubanner.png`) belongs to the original owner.
 
 The remain part is under [Apache License 2.0](LICENSE)
 
-[README]: https://s3.amazonaws.com/sjtuthesis/README.pdf
-[0.9.3]: https://github.com/sjtug/SJTUThesis/releases/tag/0.9.3
-[0.8.7]: https://github.com/sjtug/SJTUThesis/releases/tag/0.8.7
-[0.7.7]: https://github.com/sjtug/SJTUThesis/releases/tag/0.7.7
-[0.7.1]: https://github.com/sjtug/SJTUThesis/releases/tag/0.7.1
+[README]: https://github.com/jerry916/ZSTUThesis/blob/master/thesis.pdf
+[1.0.1]: https://github.com/jerry916/ZSTUThesis/releases/tag/1.0.1

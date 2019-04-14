@@ -113,5 +113,5 @@ SJTUThesis 是一个由诸多感兴趣的同学一起维护的开源项目，我
 
 上海交通大学校徽图片(`sjtulogo.pdf` 等)的版权归上海交通大学所有。其他部分使用 [Apache License 2.0](LICENSE) 授权。
 
-[README]: http://sjtug.org/SJTUThesis/README.pdf
-[0.9.5]: https://github.com/sjtug/SJTUThesis/releases/tag/0.9.5
+[README]: https://github.com/jerry916/ZSTUThesis/blob/master/thesis.pdf
+[1.0.1]: https://github.com/jerry916/ZSTUThesis/releases/tag/1.0.1
